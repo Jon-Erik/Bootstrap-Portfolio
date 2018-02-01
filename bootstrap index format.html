@@ -6,34 +6,58 @@
   <link rel="stylesheet" type="text/css" href="bootstrap-additions.css"></head>
 </head>
 <body>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-8">
-      <h1>Header1</h1>
-    </div>
-    <div class="col-sm-4" style="background-color:pink;">
-      <nav>nav bar</nav>
+<div id="header" style="background-color: white">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 header">
+        <h1>Jon-Erik Chandler</h1>
+      </div>
+      <div class="col-sm-4">
+        <nav>
+          <ul>
+            <li><a class="navbutton" href="">About</a></li>
+            <li><a class="navbutton" href="">Portfolio</a></li>
+            <li><a class="lastbutton" href="">Contact </a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </div>
+</div> 
+<div class="container maincontent">
   <div class="row">
     <div class="col-sm-8">
-      <h2>Header 2</h2>
+      <h2>About Me</h2>
       <div class="container">
         <div class="row">
-          <div class="col-sm-4" style="background-color:yellow;">
-            <p>image</p>
+          <div class="bio-picture col-sm-4">
+            <div>
+              <img src="images/placeholder image.png" width="100%">
+            </div>
           </div>
-          <div class="col-sm-8" style="background-color:pink;">
-            <p>bio content</p>
+          <div class="col-sm-8">
+            <p>Hello! My name is Jon-Erik Chandler. I'm presently taking the Coding Bootcamp at Case Western Reserve University. I'm interested in working in web development or some related coding field.
+              <br/><br/>
+            Please find some of my work on the the portfolio page and don't hesitate to contact me on the contact page.</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-sm-4" style="background-color:pink;">
-      <h3>Header 3</h3>
-      <div>links here</div>
+    <div class="connect col-sm-4">
+      <h3>Connect with Me</h3>
+      <div>
+          <a href="https://github.com/Jon-Erik">
+            <img src="images\github-128.png" alt="GitHub Link" width="31%"></a>
+          <a href="https://www.linkedin.com/in/jon-erik-chandler-7b020479">
+            <img src="images\linkedin-128.png" alt="LinkedIn Profile Link" width="31%"></a>
+          <a href="https://stackoverflow.com/users/8933756/jon-erik-chandler">
+            <img src="images\stackoverflow-128.png" alt="Stack Overflow Profile Link"
+            width="31%"></a>
+            <br>
+      </div>
     </div>
+  </div>
 </div>
-<footer>This is a footer</footer>
+<footer id="footer">© Copyright 2018 Jon-Erik Chandler</footer>
 </body>
 </html>

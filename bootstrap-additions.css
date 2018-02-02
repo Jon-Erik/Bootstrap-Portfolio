@@ -114,3 +114,33 @@ h1 {
 	background-color: #4aaaa5;
 	margin-bottom: 15px;
 }
+
+.card-title {
+	color: white;
+	background-color: #4aaaa5;
+	width: 100%;
+	position: relative;
+	top: 60%;
+	text-align: center;
+	padding: 5px 0px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.card-img {
+	padding: 0;
+  	border-radius: 0 !important;
+}
+
+.card {
+  border-radius: 0 !important;
+  border: none;
+  margin-bottom: 5%;
+}
+
+.card-img-overlay {
+	padding: 0;
+}
+
+.card-deck {
+	margin-bottom: 5%;
+}
